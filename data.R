@@ -1,6 +1,6 @@
 library(readr)
 require(data.table)
-setwd("/media/marco/165d5eb4-ca0f-4d82-a5d6-3052d1663348/TECHO/DatosCamp")
+setwd("/home/mavino/Documents/TECHO/TechoBol-CI-2018/")
 personas <- read_delim("CSV/EH2017_Persona.csv",
                        ";", escape_double = FALSE, trim_ws = TRUE)
 vivienda <- read_delim("CSV/EH2017_Vivienda.csv",
